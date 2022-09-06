@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;600;700&display=swap');
+/* ===========Hepta+Slab========== */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+/* ===========Raleway========== */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hepta Slab', serif;
+  font-family: 'Raleway', sans-serif;
+}
