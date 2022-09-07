@@ -7,8 +7,17 @@ module.exports = {
       current: "currentColor",
       white: "#ffffff",
       khaki: "#FCBF49",
+      black: "#003049",
     },
-    extend: {},
+    fontFamily: {
+      rly: ["Raleway", "sans-serif"],
+      slab: ["Hepta Slab", "serif"],
+    },
+    extend: {
+      spacing: {
+        700: "44rem",
+      },
+    },
   },
   plugins: [],
 };
