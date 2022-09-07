@@ -17,6 +17,9 @@ module.exports = {
       spacing: {
         700: "44rem",
       },
+      fontSize: {
+        heading: "2.81rem",
+      },
     },
   },
   plugins: [],
