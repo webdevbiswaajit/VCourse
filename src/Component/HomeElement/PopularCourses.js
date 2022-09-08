@@ -15,7 +15,7 @@ function PopularCourses() {
           <div className="grid grid-cols-3 gap-5">
             <div className="">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat  bg-cover"
                 style={{ backgroundImage: `url(${web})` }}
               ></div>
               <div className=" p-10 bg-white">
@@ -51,7 +51,7 @@ function PopularCourses() {
             </div>
             <div className=" ">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${market})` }}
               ></div>
               <div className=" p-10 bg-white">
@@ -87,7 +87,7 @@ function PopularCourses() {
             </div>
             <div className="">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${ui_ux})` }}
               ></div>
               <div className=" p-10 bg-white">
@@ -123,7 +123,7 @@ function PopularCourses() {
             </div>
             <div className="">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${web})` }}
               ></div>
               <div className=" p-10 bg-white">
@@ -159,7 +159,7 @@ function PopularCourses() {
             </div>
             <div className=" ">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${market})` }}
               ></div>
               <div className=" p-10 bg-white">
@@ -195,7 +195,7 @@ function PopularCourses() {
             </div>
             <div className="">
               <div
-                className=" w-full h-245 bg-no-repeat"
+                className=" w-full h-245 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${ui_ux})` }}
               ></div>
               <div className=" p-10 bg-white">

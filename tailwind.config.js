@@ -9,11 +9,12 @@ module.exports = {
       khaki: "#FCBF49",
       black: "#003049",
       ash: "#F2EFE8",
+      lean: "#EAE2B7",
     },
     extend: {
       spacing: {
         700: "44rem",
-        245: "15rem",
+        245: "18rem",
       },
       fontFamily: {
         rly: ["Raleway", "sans-serif"],
