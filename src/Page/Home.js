@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Component/Common/Footer";
 import Menu from "../Component/Common/Menu";
 import Hero from "../Component/HomeElement/Hero";
 import Instructor from "../Component/HomeElement/Instructor";
@@ -17,6 +18,7 @@ function Home() {
       <LearnWith />
       <Instructor />
       <Newsletter />
+      <Footer />
     </>
   );
 }
