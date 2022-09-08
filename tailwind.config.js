@@ -17,6 +17,7 @@ module.exports = {
       spacing: {
         700: "44rem",
         245: "18rem",
+        430: "400px",
       },
       fontFamily: {
         rly: ["Raleway", "sans-serif"],

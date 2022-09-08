@@ -132,7 +132,7 @@ function LearnWith() {
               </div>
             </div>
             <div className="">
-              <img src={learn} alt="Leanr Banner" />
+              <img className=" w-full" src={learn} alt="Leanr Banner" />
             </div>
           </div>
         </div>
