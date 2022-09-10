@@ -10,9 +10,9 @@ function Footer() {
     <>
       <div className=" bg-light_white py-20">
         <div className="container mx-auto">
-          <div className="grid grid-cols-4 gap-14">
+          <div className="grid grid-cols-4 gap-2">
             <div className=" ">
-              <img className=" w-full" src={logo} alt="" />
+              <img className="" src={logo} alt="" />
               <div className="mt-10 grid grid-cols-7">
                 <div className=" w-8 h-8 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
                   <Icon className=" text-5 " icon="uil:facebook-f" />
