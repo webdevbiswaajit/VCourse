@@ -16,7 +16,7 @@ export default function InstructorSlide() {
       <div className="container mx-auto student_review">
         <Swiper
           slidesPerView={4}
-          spaceBetween={20}
+          spaceBetween={30}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -147,10 +147,10 @@ export default function InstructorSlide() {
                 </div>
               </div>
               <h2 className=" text-black  font-semibold text-base text-center  font-rly">
-                Sabbir Hussain
+                Ishtiuq Ahmed Chowdhury
               </h2>
               <p className=" font-medium  text-sm text-center text-black   font-rly">
-                Sr. Web Developer
+                Graphic & UI/UX Designer
               </p>
             </div>
           </SwiperSlide>

@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ExternalLink } from "react-external-link";
 import { Icon } from "@iconify/react";
 import logo from "../../Img/VCourse.png";
 import visa from "../../Img/visa .jpg";
 import bkash from "../../Img/bkash.png";
+import play from "../../Img/google.png";
+import store from "../../Img/apple.png";
 
 function Footer() {
   return (
     <>
-      <div className=" bg-light_white py-20">
-        <div className="container mx-auto">
+      <div className=" bg-light_white border-b border-black">
+        <div className="container mx-auto  py-16">
           <div className="grid grid-cols-4 gap-2">
             <div className=" ">
               <img className="" src={logo} alt="" />
@@ -127,7 +130,29 @@ function Footer() {
                   Bangladesh
                 </p>
               </div>
+              <h2 className="text-black text-base font-bold font-rly mt-8">
+                Download Our Mobile App
+              </h2>
+              <div className=" flex items-center mt-2.5">
+                <img className=" w-32 mr-4" src={play} alt="" />
+                <img className=" w-32" src={store} alt="" />
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className=" bg-light_white py-3">
+        <div className="container mx-auto">
+          <div className=" flex justify-between items-center">
+            <p className=" font-rly font-medium text-black text-base">
+              © 2022 - Vcourse. All rights reserved
+            </p>
+            <p className="font-rly font-medium text-black text-base">
+              A Sister Concern of
+              <ExternalLink href="https://thevirtualbd.com/">
+                <span className=" text-khaki"> The Virtual BD</span>
+              </ExternalLink>
+            </p>
           </div>
         </div>
       </div>

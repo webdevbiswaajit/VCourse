@@ -20,8 +20,8 @@ function Home() {
       <PopularCourses />
       <LearnWith />
       <OurServices />
-      <Instructor />
       <MeetInstractor />
+      <Instructor />
       <Newsletter />
       <Footer />
     </>
