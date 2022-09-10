@@ -38,16 +38,32 @@ body {
   -o-transform: translateX(-50%);
 }
 
-.swiper {
+.student_review>.swiper {
+  padding-bottom: 60px !important;
+}
 
-  overflow: visible !important;
+.ins_card {
+  position: relative;
+  transform: 1s all ease;
+  -webkit-transform: 1s all ease;
+  -moz-transform: 1s all ease;
+  -ms-transform: 1s all ease;
+  -o-transform: 1s all ease;
+
 
 }
 
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
+.social_item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
 
-  top: 100%;
+}
+
+.ins_card:hover .social_item {
+  display: block;
+  opacity: 1;
+
 }

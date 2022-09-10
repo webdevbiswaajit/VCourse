@@ -10,6 +10,7 @@ module.exports = {
       black: "#003049",
       ash: "#F2EFE8",
       lean: "#EAE2B7",
+      orenge: "#F77F00",
       black_lighten: "rgba(0, 48, 73, .25)",
       user_lighten: "rgba(0, 48, 73, .5)",
       light_white: "#F2EFE8",
