@@ -14,3 +14,40 @@ body {
   font-family: 'Hepta Slab', serif;
   font-family: 'Raleway', sans-serif;
 }
+
+.clip-student {
+
+  background: rgba(234, 226, 183, 1);
+  position: relative;
+
+}
+
+.clip-student::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  clip-path: polygon(81% 0, 27% 0, 50% 80%);
+  background: rgba(234, 226, 183, 1);
+  height: 100px;
+  width: 100px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.swiper {
+
+  overflow: visible !important;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+
+  top: 100%;
+}
