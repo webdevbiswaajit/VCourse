@@ -13,8 +13,8 @@ export default function MySlide() {
     <>
       <div className="container mx-auto student_review">
         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={1}
+          spaceBetween={50}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -25,12 +25,12 @@ export default function MySlide() {
           loop={true}
           breakpoints={{
             640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+              slidesPerView: 1,
+              spaceBetween: 10,
             },
             768: {
-              slidesPerView: 4,
-              spaceBetween: 40,
+              slidesPerView: 2,
+              spaceBetween: 20,
             },
             1024: {
               slidesPerView: 3,
@@ -38,7 +38,7 @@ export default function MySlide() {
             },
           }}
           modules={[Pagination, Autoplay]}
-          className="mySwiper"
+          className="mySwiper px-4 sm:px-0"
         >
           <SwiperSlide>
             <div className="">

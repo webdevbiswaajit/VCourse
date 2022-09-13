@@ -9,10 +9,10 @@ function PopularCourses() {
     <>
       <div className=" bg-ash py-20">
         <div className="container mx-auto">
-          <h2 className="text-center  text-heading font-medium text-black mb-16">
+          <h2 className="text-center text-2xl sm:text-5xl mt-7 font-medium text-black">
             Explore Popular Courses
           </h2>
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid sm:grid-cols-3 gap-5 mt-7 sm:mt-16 px-4 sm:px-0">
             <div className="">
               <div
                 className=" w-full h-245 bg-no-repeat  bg-cover"

@@ -3,10 +3,10 @@ import React from "react";
 function Newsletter() {
   return (
     <>
-      <div className=" bg-khaki py-20">
+      <div className=" bg-khaki py-20 px-4 sm:px-0`">
         <div className="container mx-auto">
           <div className="text-center   w-3/4 mx-auto">
-            <h2 className=" text-black text-heading font-slab">
+            <h2 className=" text-black text-2xl sm:text-5xl font-slab">
               Subscribe to our Newsletter
             </h2>
             <p className=" font-rly text-2xl text-black">
@@ -16,9 +16,9 @@ function Newsletter() {
         </div>
         <div className=" mt-11 mx-auto ">
           <form action="">
-            <div className=" flex justify-center">
+            <div className=" flex sm:justify-center flex-col sm:flex-row">
               <input
-                className=" border-none outline-none font-medium text-black w-430  px-5 "
+                className=" border-none outline-none font-medium text-black px-5 py-4 "
                 type="email"
                 placeholder="Type your mail address"
               />

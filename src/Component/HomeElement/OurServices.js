@@ -7,7 +7,7 @@ function OurServices() {
     <>
       <div className="py-16">
         <div className="container mx-auto">
-          <h1 className=" text-center text-black text-heading font-medium mb-16">
+          <h1 className="text-center text-2xl sm:text-5xl mb-7 sm:mb-16 font-medium text-black">
             What Our Students Says <br /> About Our Services
           </h1>
           <MySlide />

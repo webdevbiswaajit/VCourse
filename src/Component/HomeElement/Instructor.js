@@ -10,10 +10,10 @@ function Instructor() {
       >
         <div className="container mx-auto">
           <div className=" text-center  w-1/2 mx-auto ">
-            <h2 className=" text-heading text-white font-medium">
+            <h2 className="text-2xl sm:text-5xl text-white font-medium">
               Become An Instructor
             </h2>
-            <p className=" font-normal text-light_white">
+            <p className=" font-base mt-4 text-light_white">
               Hello! This is a exciting opportunity for you. You can apply at
               VCourse as a Instructor. Share your talent and experience with us
               and go ahead of yourself for a new challenge.

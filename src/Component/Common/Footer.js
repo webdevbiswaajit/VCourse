@@ -13,33 +13,33 @@ function Footer() {
     <>
       <div className=" bg-light_white border-b border-black">
         <div className="container mx-auto  py-16">
-          <div className="grid grid-cols-4 gap-2">
-            <div className=" ">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            <div className="col-span-2 sm:col-span-1 flex flex-col items-center sm:items-start mb-10 sm:mb-0">
               <img className="" src={logo} alt="" />
-              <div className="mt-10 grid grid-cols-7">
-                <div className=" w-8 h-8 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
+              <div className="mt-10 flex justify-between sm:justify-start">
+                <div className="w-8 h-8 mx-1 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
                   <Icon className=" text-5 " icon="uil:facebook-f" />
                 </div>
-                <div className=" w-8 h-8 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
+                <div className="w-8 h-8 mx-1 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
                   <Icon
                     className=" text-5 "
                     icon="fa6-brands:square-instagram"
                   />
                 </div>
-                <div className=" w-8 h-8 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
+                <div className="w-8 h-8 mx-1 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
                   <Icon className=" text-5 " icon="ion:logo-youtube" />
                 </div>
-                <div className=" w-8 h-8 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
+                <div className="w-8 h-8 mx-1 border flex justify-center items-center hover:bg-black transition-all text-black  hover:text-white">
                   <Icon className=" text-5 " icon="cib:linkedin-in" />
                 </div>
               </div>
-              <div className=" mt-16 flex">
-                <img className=" w-24 h-10" src={visa} alt="" />
-                <img className="w-24 h-10" src={bkash} alt="" />
+              <div className="mt-16 flex justify-center sm:justify-start w-full ">
+                <img className="w-24 mr-4" src={visa} alt="" />
+                <img className="w-24 mx-4" src={bkash} alt="" />
               </div>
             </div>
 
-            <div className="">
+            <div className="text-center sm:text-left">
               <h2 className=" font-semibold text-black text-lg mb-6">
                 Company
               </h2>
@@ -65,7 +65,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="">
+            <div className="text-center sm:text-left">
               <h2 className=" font-semibold text-black text-lg mb-6">Others</h2>
               <div className=" flex flex-col">
                 <Link
@@ -86,25 +86,19 @@ function Footer() {
                 >
                   Blog
                 </Link>
+                <Link
+                  className=" font-medium text-black font-rly text-base mb-3 hover:text-khaki transition-all"
+                  to="/faq"
+                >
+                  Sitemap
+                </Link>
               </div>
-              <Link
-                className=" font-medium text-black font-rly text-base mb-3 hover:text-khaki transition-all"
-                to="/faq"
-              >
-                FAQ’s
-              </Link>
-              <Link
-                className=" font-medium text-black font-rly text-base mb-3 hover:text-khaki transition-all"
-                to="/faq"
-              >
-                Sitemap
-              </Link>
             </div>
-            <div className="">
+            <div className="col-span-2 sm:col-span-1 text-center sm:text-left p-8 sm:p-0">
               <h2 className=" font-semibold text-black text-lg mb-6">
                 Contact
               </h2>
-              <div className=" flex mb-3">
+              <div className=" flex mb-3 justify-between sm:justify-start">
                 <p className=" mr-8  font-semibold text-black font-rly text-base">
                   Phone:
                 </p>
@@ -112,7 +106,7 @@ function Footer() {
                   +8801711-666603
                 </p>
               </div>
-              <div className=" flex mb-3">
+              <div className=" flex mb-3 justify-between sm:justify-start">
                 <p className=" mr-8  font-semibold text-black font-rly text-base">
                   Email:
                 </p>
@@ -120,11 +114,11 @@ function Footer() {
                   contact@vcourse.net
                 </p>
               </div>
-              <div className=" flex mb-3">
+              <div className=" flex mb-3 justify-between sm:justify-start">
                 <p className=" mr-8  font-semibold text-black font-rly text-base">
                   Address:
                 </p>
-                <p className="font-semibold text-black font-rly text-base">
+                <p className="font-semibold text-black font-rly text-base text-right sm:text-left">
                   Home 315, Phase 2, Road 3, <br /> Sonadanga, Khulna - 9100,
                   <br />
                   Bangladesh
@@ -133,7 +127,7 @@ function Footer() {
               <h2 className="text-black text-base font-bold font-rly mt-8">
                 Download Our Mobile App
               </h2>
-              <div className=" flex items-center mt-2.5">
+              <div className=" flex items-center justify-center sm:justify-start mt-2.5 ">
                 <img className=" w-32 mr-4" src={play} alt="" />
                 <img className=" w-32" src={store} alt="" />
               </div>
@@ -141,9 +135,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className=" bg-light_white py-3">
+      <div className=" bg-light_white py-3 px-4 sm:px-0">
         <div className="container mx-auto">
-          <div className=" flex justify-between items-center">
+          <div className=" flex flex-col sm:flex-row justify-between items-center">
             <p className=" font-rly font-medium text-black text-base">
               © 2022 - Vcourse. All rights reserved
             </p>

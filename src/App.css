@@ -15,11 +15,48 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.clip-student {
+/* ================Nav-css============== */
+.tryangle a:hover {
+  position: relative;
+  background-color: #FCBF49;
+  transform: all ease;
+  -webkit-transform: all ease;
+  -moz-transform: all ease;
+  -ms-transform: all ease;
+  -o-transform: all ease;
+}
 
+.tryangle a:hover::after {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background: #FCBF49;
+  clip-path: polygon(100% 0, 0 0, 50% 20%);
+  top: 100%;
+  left: 0px;
+}
+
+.tryangle a.active::after {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background: #FCBF49;
+  clip-path: polygon(100% 0, 0 0, 50% 20%);
+  top: 100%;
+  left: 0px;
+}
+
+/* Hero */
+.homehero {
+  background-image: url('Img/responsive-banner.jpg');
+}
+
+/* Student Review */
+.clip-student {
   background: rgba(234, 226, 183, 1);
   position: relative;
-
 }
 
 .clip-student::after {
@@ -49,8 +86,6 @@ body {
   -moz-transform: 1s all ease;
   -ms-transform: 1s all ease;
   -o-transform: 1s all ease;
-
-
 }
 
 .social_item {
@@ -59,11 +94,20 @@ body {
   right: 0;
   opacity: 0;
   cursor: pointer;
-
 }
 
 .ins_card:hover .social_item {
   display: block;
   opacity: 1;
 
+}
+
+
+
+/* Small device */
+@media (min-width: 640px) {
+  .homehero {
+    background-color: red;
+    background-image: url('Img/HomeBanner.jpg') !important;
+  }
 }
