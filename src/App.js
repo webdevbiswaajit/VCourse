@@ -1,10 +1,10 @@
 import "./App.css";
-import BecomeInstractor from "./Page/BecomeInstractor";
+import ContactUs from "./Page/ContactUs";
 
 function App() {
   return (
     <div className="App">
-      <BecomeInstractor />
+      <ContactUs />
     </div>
   );
 }
