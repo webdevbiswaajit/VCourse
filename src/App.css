@@ -138,8 +138,30 @@ body {
 /* ========================Tabs============= */
 
 
+/* ===============Sign-with=============== */
+.sing_width {
+  position: relative;
+}
 
+.sing_width::after {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 2px;
+  background: #003049;
+  top: 14px;
+  right: 0px;
+}
 
+.sing_width::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 2px;
+  background: #003049;
+  top: 14px;
+  left: 0px;
+}
 
 /* Small device */
 @media (min-width: 640px) {

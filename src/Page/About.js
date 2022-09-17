@@ -8,7 +8,7 @@ function About() {
       <Menu />
       <div className=" py-24">
         <div className="container mx-auto">
-          <h2 className=" text-black  text-2xl text-center font-medium font-slab mb-8">
+          <h2 className=" text-black  text-2xl text-center font-bold font-slab mb-8">
             A Great Place to Grow
           </h2>
           <p className=" font-rly text-xl font-normal text-black text-justify">
@@ -17,7 +17,7 @@ function About() {
             will teach you in a unique and effective manner. The Vcourse team
             will ensure that you grow to your full potential in your course!{" "}
           </p>
-          <h2 className=" text-black  text-2xl text-center font-medium font-slab mb-8  mt-12">
+          <h2 className=" text-black  text-2xl text-center font-bold font-slab mb-8  mt-12">
             Who We Are
           </h2>
           <p className=" font-rly text-xl font-normal text-black text-justify">
@@ -29,7 +29,7 @@ function About() {
             your thoughts with our creativity. Learning with us will be an
             unforgettable experience that you will remember forever.
           </p>
-          <h2 className=" text-black  text-2xl text-center font-medium font-slab mb-8  mt-12">
+          <h2 className=" text-black  text-2xl text-center  font-bold font-slab mb-8  mt-12">
             Our Mission
           </h2>
           <p className=" font-rly text-xl font-normal text-black text-justify">

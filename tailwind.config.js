@@ -15,6 +15,7 @@ module.exports = {
       user_lighten: "rgba(0, 48, 73, .5)",
       light_white: "#F2EFE8",
       border_black: "rgba(0, 48, 73, .1)",
+      red: "#FF0000",
     },
     extend: {
       spacing: {
