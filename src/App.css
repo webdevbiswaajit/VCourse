@@ -104,6 +104,43 @@ body {
 
 
 
+/* ========================Tabs============= */
+.react-tabs__tab-list {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+
+}
+
+.react-tabs__tab {
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.react-tabs__tab-list ul li {
+  cursor: pointer;
+
+}
+
+.react-tabs__tab-list li:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  border-bottom: 2px solid #FCBF49;
+  color: #FCBF49;
+}
+
+/* ========================Tabs============= */
+
+
+
+
+
 /* Small device */
 @media (min-width: 640px) {
   .homehero {
