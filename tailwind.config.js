@@ -14,11 +14,13 @@ module.exports = {
       black_lighten: "rgba(0, 48, 73, .25)",
       user_lighten: "rgba(0, 48, 73, .5)",
       light_white: "#F2EFE8",
+      border_black: "rgba(0, 48, 73, .1)",
     },
     extend: {
       spacing: {
         700: "44rem",
-        245: "18rem",
+        245: "15rem",
+        288: "18rem",
         430: "400px",
       },
       fontFamily: {

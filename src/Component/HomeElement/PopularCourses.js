@@ -195,7 +195,7 @@ function PopularCourses() {
             </div>
             <div className="">
               <div
-                className=" w-full h-245 bg-no-repeat bg-cover"
+                className=" w-full h-288 bg-no-repeat bg-cover"
                 style={{ backgroundImage: `url(${ui_ux})` }}
               ></div>
               <div className=" p-10 bg-white">

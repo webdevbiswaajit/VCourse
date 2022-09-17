@@ -15,8 +15,8 @@ export default function InstructorSlide() {
     <>
       <div className="container mx-auto student_review">
         <Swiper
-          slidesPerView={4}
-          spaceBetween={30}
+          slidesPerView={1}
+          spaceBetween={50}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -46,7 +46,6 @@ export default function InstructorSlide() {
             <div className="">
               <div className="ins_card">
                 <img className=" w-80 h-80 mb-8" src={ins1} alt="" />
-
                 <div className="social_item">
                   <div className=" w-10 h-10 bg-khaki flex justify-center items-center">
                     <Icon
