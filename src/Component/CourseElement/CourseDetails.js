@@ -1,5 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Collapsible from "react-collapsible";
 import poster from "../../Img/detailsImage.jpg";
 import Menu from "../Common/Menu";
 import ins1 from "../../Img/ins2.jpg";
@@ -86,9 +87,16 @@ function CourseDetails() {
                   </p>
                 </TabPanel>
                 <TabPanel>
-                  <h2 className=" text-black text-sm font-semibold mb-3 mt-5">
-                    About Course
-                  </h2>
+                  <Collapsible trigger="Start here">
+                    <p>
+                      This is the collapsible content. It can be any element or
+                      React component you like.
+                    </p>
+                    <p>
+                      It can even be another Collapsible component. Check out
+                      the next section!
+                    </p>
+                  </Collapsible>
                 </TabPanel>
               </Tabs>
             </div>

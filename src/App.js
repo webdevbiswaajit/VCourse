@@ -1,10 +1,10 @@
 import "./App.css";
-import CourseDetails from "../src/Component/CourseElement/CourseDetails";
+import InstructorDetails from "./Component/InstructorDetails/InstructorDetails";
 
 function App() {
   return (
     <div className="App">
-      <CourseDetails />
+      <InstructorDetails />
     </div>
   );
 }
