@@ -1,5 +1,6 @@
 import React from "react";
 import BillCart from "../Component/Cart/BillCart";
+import Footer from "../Component/Common/Footer";
 import Menu from "../Component/Common/Menu";
 
 function Cart() {
@@ -7,6 +8,7 @@ function Cart() {
     <>
       <Menu />
       <BillCart />
+      <Footer />
     </>
   );
 }

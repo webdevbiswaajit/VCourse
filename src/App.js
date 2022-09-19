@@ -1,9 +1,9 @@
 import "./App.css";
-import Cart from "./Page/Cart";
+import Course from "./Page/Course";
 function App() {
   return (
     <div className="App">
-      <Cart />
+      <Course />
     </div>
   );
 }

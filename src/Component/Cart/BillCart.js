@@ -104,7 +104,18 @@ function BillCart() {
                 <p className=" font-rly    text-black">৳ 85</p>
               </div>
 
-              <div className=" border border-black"></div>
+              <hr className=" bg-ash mt-4" />
+              <div className=" flex justify-center items-center mt-4">
+                <p className=" font-rly  font-semibold  text-black  mr-5">
+                  Total
+                </p>
+                <p className=" font-rly text-black ml-9">৳ 800</p>
+              </div>
+              <div className=" text-center mt-10 ">
+                <button className="  bg-khaki  text-black text-sm  font-slab font-medium py-4 px-6 text-center">
+                  Proceed to Checkout
+                </button>
+              </div>
             </div>
           </div>
         </div>

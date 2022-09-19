@@ -35,6 +35,9 @@ module.exports = {
         70: "70%",
         84: "84%",
       },
+      border_line: {
+        border: "1px solid #000",
+      },
     },
   },
   plugins: [],
