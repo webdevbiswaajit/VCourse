@@ -1,10 +1,10 @@
 import "./App.css";
-import ContactUs from "./Page/ContactUs";
+import CheckOut from "./Page/CheckOut";
 
 function App() {
   return (
     <div className="App">
-      <ContactUs />
+      <CheckOut />
     </div>
   );
 }
