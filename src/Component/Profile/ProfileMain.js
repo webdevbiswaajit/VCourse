@@ -4,6 +4,9 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Collapsible from "react-collapsible";
 import AboutTab from "./AboutTab";
 import InstructorTab from "./InstructorTab";
+import EnrollTab from "./EnrollTab";
+import CompliteTab from "./CompliteTab";
+import RuningTab from "./RuningTab";
 
 function ProfileMain() {
   return (
@@ -64,10 +67,25 @@ function ProfileMain() {
                 <AboutTab />
               </TabPanel>
               {/* =================== */}
-              <TabPanel></TabPanel>
+              <TabPanel>
+                <AboutTab />
+              </TabPanel>
               {/* ============================= */}
               <TabPanel>
                 <InstructorTab />
+              </TabPanel>
+              {/* =========================== */}{" "}
+              {/* ============================= */}
+              <TabPanel>
+                <EnrollTab />
+              </TabPanel>
+              {/* =========================== */}
+              <TabPanel>
+                <CompliteTab />
+              </TabPanel>
+              {/* =========================== */}
+              <TabPanel>
+                <RuningTab />
               </TabPanel>
               {/* =========================== */}
               <TabPanel>

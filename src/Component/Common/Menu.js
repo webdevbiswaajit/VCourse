@@ -40,7 +40,7 @@ function Menu() {
                 </Link>
                 <Link
                   className="font-normal text-black text-sm   hover:bg-khaki  py-8 px-4"
-                  to="/home"
+                  to="/profile"
                 >
                   Blog
                 </Link>

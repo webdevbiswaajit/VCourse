@@ -20,6 +20,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/courses" element={<MyCourse />} />
         <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/become-instructor" element={<BecomeInstractor />} />
         <Route path="/sign-in" element={<SignIn />} />
