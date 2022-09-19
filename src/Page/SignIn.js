@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../Component/Common/Menu";
 import { Icon } from "@iconify/react";
 import Footer from "../Component/Common/Footer";
+import { Link } from "react-router-dom";
 
 function SignIn() {
   return (
@@ -61,9 +62,11 @@ function SignIn() {
                 <p className=" text-xl text-black font-rly">
                   Don't have any account?
                 </p>
-                <p className=" text-xl text-khaki  font-slab ml-3 font-semibold">
-                  Sign Up
-                </p>
+                <Link to="/sign-up">
+                  <p className=" text-xl text-khaki  font-slab ml-3 font-semibold">
+                    Sign Up
+                  </p>
+                </Link>
               </div>
 
               <div className=" sing_width text-center font-semibold text-lg text-black mt-16">

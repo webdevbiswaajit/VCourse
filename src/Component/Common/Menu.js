@@ -40,7 +40,7 @@ function Menu() {
                 </Link>
                 <Link
                   className="font-normal text-black text-sm   hover:bg-khaki  py-8 px-4"
-                  to="/blog"
+                  to="/home"
                 >
                   Blog
                 </Link>
@@ -67,7 +67,7 @@ function Menu() {
               <div className="flex items-center justify-end">
                 <Link
                   className=" text-base text-white p-2.5 bg-khaki rounded-full mr-4"
-                  to="/profile"
+                  to="/sign-in"
                 >
                   <Icon icon="ant-design:user-outlined" />
                 </Link>

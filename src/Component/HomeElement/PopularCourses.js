@@ -193,10 +193,10 @@ function PopularCourses() {
                 </p>
               </div>
             </div>
-            <div className="">
+            <div className=" ">
               <div
-                className=" w-full h-288 bg-no-repeat bg-cover"
-                style={{ backgroundImage: `url(${ui_ux})` }}
+                className=" w-full h-245 bg-no-repeat bg-cover"
+                style={{ backgroundImage: `url(${market})` }}
               ></div>
               <div className=" p-10 bg-white">
                 <h2 className=" text-black text-lg font-medium font-rly">
@@ -225,7 +225,7 @@ function PopularCourses() {
               </div>
               <div className=" bg-khaki py-3 px-10">
                 <p className=" text-end text-black font-bold text-2xl font-rly">
-                  ৳ 4,000
+                  ৳ 3,000
                 </p>
               </div>
             </div>

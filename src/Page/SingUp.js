@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../Component/Common/Menu";
 import { Icon } from "@iconify/react";
 import Footer from "../Component/Common/Footer";
+import { Link } from "react-router-dom";
 
 function SingUp() {
   return (
@@ -29,7 +30,7 @@ function SingUp() {
                   </div>
                   <div className=" mt-4">
                     <p className=" text-black font-normal text-lg font-rly">
-                      Email*<span className="text-red  text-3xl pt-10">*</span>
+                      Email<span className="text-red  text-3xl pt-10">*</span>
                     </p>
                     <input
                       className=" w-full border border-border_black  outline-none font-rly text-base py-2 px-3 rounded-sm"
@@ -100,9 +101,11 @@ function SingUp() {
                 <p className=" text-xl text-black font-rly">
                   Already have account?
                 </p>
-                <p className=" text-xl text-khaki  font-slab ml-3 font-semibold">
-                  Sign In
-                </p>
+                <Link to="/sign-in">
+                  <p className=" text-xl text-khaki  font-slab ml-3 font-semibold">
+                    Sign In
+                  </p>
+                </Link>
               </div>
 
               <div className=" sing_width text-center font-semibold text-lg text-black mt-16">

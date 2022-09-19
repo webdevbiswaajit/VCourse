@@ -4,6 +4,7 @@ import marketing from "../../Img/marketing.jpg";
 import Menu from "../Common/Menu";
 import ins1 from "../../Img/ins2.jpg";
 import Footer from "../Common/Footer";
+import { Link } from "react-router-dom";
 
 function InstructorDetails() {
   return (
@@ -88,9 +89,11 @@ function InstructorDetails() {
                   </div>
                 </div>
                 <div className=" bg-khaki py-3 text-center">
-                  <button className=" bg-transparent text-black  text-sm font-bold font-slab">
-                    Enroll Course
-                  </button>
+                  <Link to="/course-details">
+                    <p className=" bg-transparent text-black  text-sm font-bold font-slab">
+                      Enroll Course
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className=" w-1/3">

@@ -2,6 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import ins1 from "../../Img/ins2.jpg";
 import marketing from "../../Img/marketing.jpg";
+import { Link } from "react-router-dom";
 
 function CourseCard() {
   return (
@@ -50,9 +51,11 @@ function CourseCard() {
           </div>
         </div>
         <div className=" border border-border_black py-4 text-center">
-          <button className=" border-none bg-transparent text-black font-slab font-bold ">
-            Enroll Course
-          </button>
+          <Link to="/course-details">
+            <p className=" border-none bg-transparent text-black font-slab font-bold ">
+              Enroll Course
+            </p>
+          </Link>
         </div>
       </div>
       <div className="">
@@ -251,6 +254,7 @@ function CourseCard() {
           </button>
         </div>
       </div>
+
       <div className="">
         <div
           className="w-full h-245 bg-no-repeat bg-cover"

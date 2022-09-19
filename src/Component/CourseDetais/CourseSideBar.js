@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ins1 from "../../Img/ins2.jpg";
 
 function CourseSideBar() {
@@ -10,9 +11,11 @@ function CourseSideBar() {
             ৳ 5,000
           </p>
           <div className=" bg-khaki text-center py-2 mt-10">
-            <button className=" bg-transparent text-white font-slab text-xl font-bold">
-              Join &amp; Enroll
-            </button>
+            <Link to="/sign-in">
+              <p className=" bg-transparent text-white font-slab text-xl font-bold">
+                Join &amp; Enroll
+              </p>
+            </Link>
           </div>
         </div>
         <div className=" py-9 px-11 border border-border_black mt-5">
