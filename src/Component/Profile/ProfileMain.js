@@ -3,6 +3,7 @@ import ins2 from "../../Img/ins2.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Collapsible from "react-collapsible";
 import AboutTab from "./AboutTab";
+import InstructorTab from "./InstructorTab";
 
 function ProfileMain() {
   return (
@@ -62,6 +63,13 @@ function ProfileMain() {
               <TabPanel>
                 <AboutTab />
               </TabPanel>
+              {/* =================== */}
+              <TabPanel></TabPanel>
+              {/* ============================= */}
+              <TabPanel>
+                <InstructorTab />
+              </TabPanel>
+              {/* =========================== */}
               <TabPanel>
                 <Collapsible trigger="Start here">
                   <p>
