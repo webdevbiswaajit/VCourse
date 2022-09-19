@@ -31,6 +31,10 @@ module.exports = {
       fontSize: {
         heading: "2.81rem",
       },
+      width: {
+        70: "70%",
+        84: "84%",
+      },
     },
   },
   plugins: [],
