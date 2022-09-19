@@ -10,6 +10,7 @@ import SingUp from "./Page/SingUp";
 import Cart from "./Page/Cart";
 import InstructorDetails from "./Component/InstructorDetails/InstructorDetails";
 import CourseDetails from "./Page/CourseDetails";
+import Profile from "./Page/Profile";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/instructor-course" element={<InstructorDetails />} />
         <Route path="/course-details" element={<CourseDetails />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </div>
   );
