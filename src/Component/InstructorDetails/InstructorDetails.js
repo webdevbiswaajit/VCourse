@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import marketing from "../../Img/marketing.jpg";
 import Menu from "../Common/Menu";
-import ins1 from "../../Img/ins2.jpg";
+import ins1 from "../../Img/inst1.jpg";
 import Footer from "../Common/Footer";
 import { Link } from "react-router-dom";
 
@@ -16,9 +16,9 @@ function InstructorDetails() {
             <img className=" w-full" src={ins1} alt="...." />
             <div className=" p-8 border border-border_black">
               <h2 className=" font-semibold text-black text-xl font-rly">
-                Jarif Huda Angon
+                Md. Mehedi Hassan
               </h2>
-              <small className=" font-rly text-sm  text-black font-medium">
+              <small className=" font-rly text-sm  text-black font-medium ">
                 CEO &amp; Instructor
               </small>
               <p className=" font-rly text-base text-black mt-8">
