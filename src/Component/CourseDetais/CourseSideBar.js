@@ -7,7 +7,7 @@ function CourseSideBar() {
     <>
       <div className=" mt-16 ">
         <div className=" py-9 px-11 border border-border_black">
-          <p className=" font-bold text-black text-2xl text-right font-rly">
+          <p className=" font-bold text-black text-2xl sm:text-right font-rly ">
             ৳ 5,000
           </p>
           <div className=" bg-khaki text-center py-2 mt-10">
@@ -23,22 +23,22 @@ function CourseSideBar() {
             Material Includes
           </p>
           <ul>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm text-left  ml-4 mt-4 font-rly font-semibold">
               7.5 hours on-demand video
             </li>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm text-left ml-4 mt-4 font-rly font-semibold">
               10 articles
             </li>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm  text-left ml-4 mt-4 font-rly font-semibold">
               31 downloadable resources
             </li>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm text-left ml-4 mt-4 font-rly font-semibold">
               Full lifetime access
             </li>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm text-left  ml-4 mt-4 font-rly font-semibold">
               Access on mobile and TV
             </li>
-            <li className=" list-disc text-black text-sm  ml-4 mt-4 font-rly font-semibold">
+            <li className=" list-disc text-black text-sm  text-left ml-4 mt-4 font-rly font-semibold">
               Certificate of Completion
             </li>
           </ul>
@@ -49,7 +49,7 @@ function CourseSideBar() {
           </p>
           <div className=" mt-3 flex items-center">
             <img
-              className=" w-10 h-10 rounded-full mr-4"
+              className=" w-10 h-10  rounded-full mr-4"
               src={ins1}
               alt="..."
             />

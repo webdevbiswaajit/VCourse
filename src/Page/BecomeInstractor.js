@@ -10,8 +10,8 @@ function BecomeInstractor() {
         <div className="container mx-auto">
           <div className="grid grid-cols-4">
             <div className=""></div>
-            <div className="  col-span-2">
-              <h2 className=" text-3xl font-semibold text-black text-center font-slab">
+            <div className="sm:col-span-2 col-span-4 px-5">
+              <h2 className=" sm:text-3xl md:text-2xl font-semibold text-black text-center font-slab mb-5">
                 Become An Instructor
               </h2>
               <div className="">
