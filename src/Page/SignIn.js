@@ -8,7 +8,6 @@ function SignIn() {
     <>
       <Menu />
       <SingForm />
-
       <Footer />
     </>
   );
