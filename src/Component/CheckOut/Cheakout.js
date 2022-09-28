@@ -3,11 +3,11 @@ import React from "react";
 function Cheakout() {
   return (
     <>
-      <div className=" py-32">
+      <div className=" sm:py-32 py-10">
         <div className="container mx-auto">
-          <div className="grid grid-cols-5">
+          <div className="grid grid-cols-4">
             <div className=""></div>
-            <div className=" col-span-3">
+            <div className=" col-span-4  lg:col-span-2 md:col-span-4 px-4">
               <h2 className=" text-black text-4xl text-center  font-semibold ">
                 Checkout
               </h2>
@@ -103,7 +103,7 @@ function Cheakout() {
 
                   <div className=" mt-12 text-center">
                     <button
-                      className=" bg-khaki font-bold text-xl text-black font-slab py-4  px-28"
+                      className=" bg-khaki font-bold text-xl text-black font-slab py-4 px-28"
                       type="submit"
                     >
                       Confirm Payment

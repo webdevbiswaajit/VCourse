@@ -11,6 +11,7 @@ import Cart from "./Page/Cart";
 import InstructorDetails from "./Component/InstructorDetails/InstructorDetails";
 import CourseDetails from "./Page/CourseDetails";
 import Profile from "./Page/Profile";
+import CheckOut from "./Page/CheckOut";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/instructor-course" element={<InstructorDetails />} />
         <Route path="/course-details" element={<CourseDetails />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/check-out" element={<CheckOut />} />
       </Routes>
     </div>
   );

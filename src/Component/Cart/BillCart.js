@@ -1,6 +1,7 @@
 import React from "react";
 import web from "../../Img/web.jpg";
 import marketing from "../../Img/marketing.jpg";
+import { Link } from "react-router-dom";
 
 function BillCart() {
   return (
@@ -112,9 +113,12 @@ function BillCart() {
                 <p className=" font-rly text-black ml-9">৳ 800</p>
               </div>
               <div className=" text-center mt-10 ">
-                <button className="  bg-khaki  text-black text-sm  font-slab font-medium py-4 px-6 text-center">
+                <Link
+                  to="/check-out"
+                  className="  bg-khaki  text-black text-sm  font-slab font-bold py-4 px-6 text-center"
+                >
                   Proceed to Checkout
-                </button>
+                </Link>
               </div>
             </div>
           </div>
