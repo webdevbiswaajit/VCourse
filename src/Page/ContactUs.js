@@ -1,23 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Menu from "../Component/Common/Menu";
 import Footer from "../Component/Common/Footer";
 import cBanner from "../Img/ContactImg.jpg";
-// import { useState } from "react";
-// import { useEffect } from "react";
-
 function ContactUs() {
-  useEffect(() => {
-    fetch("https://vcourse.net/api/17/show")
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-  });
-
   return (
     <>
       <Menu />
       <div className=" bg-ash sm:py-24 py-12">
         <div className="container mx-auto">
-          <div className="grid sm:grid-cols-2 gap-5">
+          <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="">
               <h2 className="text-3xl font-slab font-semibold  sm:text-start text-center">
                 Contact Us
