@@ -10,7 +10,7 @@ function BecomeInstractor() {
         <div className="container mx-auto">
           <div className="grid grid-cols-4">
             <div className=""></div>
-            <div className="sm:col-span-2 col-span-4 px-5">
+            <div className="col-span-4 md:col-span-4 lg:col-span-2 px-5">
               <h2 className=" sm:text-3xl md:text-2xl font-semibold text-black text-center font-slab mb-5">
                 Become An Instructor
               </h2>
