@@ -11,7 +11,7 @@ import RuningTab from "./RuningTab";
 function ProfileMain() {
   return (
     <>
-      <div className=" py-24">
+      <div className=" sm:py-24">
         <div className="container mx-auto">
           <div className=" bg-ash pt-12  ">
             <div className="flex items-center pl-12">
@@ -28,7 +28,7 @@ function ProfileMain() {
               </div>
             </div>
             <Tabs>
-              <div className="pl-12">
+              <div className="sm:pl-12 px-4">
                 <TabList>
                   <Tab>
                     <p className="text-black  text-base font-normal">
@@ -62,7 +62,7 @@ function ProfileMain() {
                   </Tab>
                 </TabList>
               </div>
-              <div className="bg-white py-3"></div>
+              <div className="bg-white py-3 hidden sm:block"></div>
               <TabPanel>
                 <AboutTab />
               </TabPanel>

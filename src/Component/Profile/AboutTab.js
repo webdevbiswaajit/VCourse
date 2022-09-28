@@ -3,9 +3,11 @@ import React from "react";
 function AboutTab() {
   return (
     <>
-      <div className=" grid  grid-cols-2 gap-5 bg-white">
+      <div className=" grid  sm:grid-cols-2 gap-5 bg-white mb-5">
         <div className="py-7 px-12 bg-ash">
-          <h2 className=" text-xl font-semibold text-black ">About Me</h2>
+          <h2 className=" text-xl font-semibold text-black text-center lg:text-left ">
+            About Me
+          </h2>
           <p className=" font-normal font-rly text-sm text-black text-justify mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -17,7 +19,7 @@ function AboutTab() {
           </p>
         </div>
         <div className="py-7 px-12 bg-ash">
-          <h2 className=" text-xl font-semibold text-black  mb-5">
+          <h2 className=" text-xl font-semibold text-black text-center lg:text-left mb-5">
             Contact Information
           </h2>
           <div className="flex">

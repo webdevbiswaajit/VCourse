@@ -169,4 +169,18 @@ body {
     background-color: red;
     background-image: url('Img/HomeBanner.jpg') !important;
   }
+
+
+}
+
+@media (max-width: 640px) {
+
+  .react-tabs__tab-list {
+    display: block;
+    text-align: center;
+  }
+
+  .react-tabs__tab {
+    margin-right: 0;
+  }
 }
