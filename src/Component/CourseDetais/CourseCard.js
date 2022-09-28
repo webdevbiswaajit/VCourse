@@ -254,7 +254,6 @@ function CourseCard() {
           </button>
         </div>
       </div>
-
       <div className="">
         <div
           className="w-full h-245 bg-no-repeat bg-cover"

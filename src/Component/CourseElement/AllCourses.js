@@ -5,7 +5,7 @@ function AllCourses() {
   return (
     <>
       <div className="container mx-auto  sm:mt-36  sm:mb-36">
-        <div className=" grid sm:grid-cols-3 md:grid-cols-2 m-2 gap-5">
+        <div className=" grid xl:grid-cols-3 sm:grid-cols-3 md:grid-cols-2 m-2 gap-5">
           <CourseCard />
         </div>
       </div>

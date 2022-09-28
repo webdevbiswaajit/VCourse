@@ -10,9 +10,9 @@ function InstructorDetails() {
   return (
     <>
       <Menu />
-      <div className="container mx-auto mt-24 mb-24">
-        <div className="flex">
-          <div className=" w-1/4 mr-5">
+      <div className="container mx-auto sm:mt-24 sm:mb-24 mt-5 mb-5">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 lg:gap-4">
+          <div className="sm:mr-5 md:mr-0 sm:px-0 px-4">
             <img className=" w-full" src={ins1} alt="...." />
             <div className=" p-8 border border-border_black">
               <h2 className=" font-semibold text-black text-xl font-rly">
@@ -41,12 +41,12 @@ function InstructorDetails() {
               </div>
             </div>
           </div>
-          <div className=" w-3/4 ">
-            <h2 className=" text-black font-semibold  text-base font-slab mb-5">
+          <div className="col-span-3">
+            <h2 className=" text-black font-semibold  text-base font-slab mb-5 sm:text-start  text-center sm:mt-0 mt-5">
               Course
             </h2>
-            <div className="flex gap-3">
-              <div className=" w-1/3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 ">
+              <div className="mb-4 ">
                 <img src={marketing} alt="...." />
                 <div className=" border border-border_black py-5 px-7">
                   <h2 className=" text-black text-sm  font-semibold">
@@ -96,7 +96,7 @@ function InstructorDetails() {
                   </Link>
                 </div>
               </div>
-              <div className=" w-1/3">
+              <div className="mb-4">
                 <img src={marketing} alt="...." />
                 <div className=" border border-border_black py-5 px-7">
                   <h2 className=" text-black text-sm  font-semibold">
@@ -144,7 +144,55 @@ function InstructorDetails() {
                   </button>
                 </div>
               </div>
-              <div className=" w-1/3">
+              <div className="mb-4">
+                <img src={marketing} alt="...." />
+                <div className=" border border-border_black py-5 px-7">
+                  <h2 className=" text-black text-sm  font-semibold">
+                    WordPress for Beginners
+                  </h2>
+                  <div className="flex justify-between  mt-4 ">
+                    <div className="flex items-center">
+                      <Icon
+                        className=" mr-3 text-khaki  font-medium text-xs font-rly"
+                        icon="bxs:book-reader"
+                      />
+                      <p className=" text-black font-medium text-xs font-rly">
+                        30 Lesson
+                      </p>
+                    </div>
+                    <div className="flex items-center">
+                      <Icon
+                        className=" mr-3 text-khaki font-medium text-xs font-rly"
+                        icon="eva:clock-outline"
+                      />
+                      <p className=" text-black font-medium text-xs font-rly">
+                        1.5 Hrs
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <div className="flex items-center  mt-4 ">
+                      <img
+                        className=" w-8 h-8 rounded-full mr-2"
+                        src={ins1}
+                        alt=""
+                      />
+                      <p className=" text-black font-medium text-xs font-rly">
+                        By, Jarif Huda Angon
+                      </p>
+                    </div>
+                    <p className=" text-black font-medium text-xs  font-rly mt-3">
+                      ৳ 5,000
+                    </p>
+                  </div>
+                </div>
+                <div className=" bg-khaki py-3 text-center">
+                  <button className=" bg-transparent text-black  text-sm font-bold font-slab">
+                    Enroll Course
+                  </button>
+                </div>
+              </div>
+              <div className="mb-4">
                 <img src={marketing} alt="...." />
                 <div className=" border border-border_black py-5 px-7">
                   <h2 className=" text-black text-sm  font-semibold">
