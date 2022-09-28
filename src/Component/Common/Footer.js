@@ -13,7 +13,7 @@ function Footer() {
     <>
       <div className=" bg-light_white border-b border-black">
         <div className="container mx-auto  py-16">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          <div className="grid lg:grid-cols-4 sm:grid-cols-4 md:grid-cols-2 gap-2">
             <div className="col-span-2 sm:col-span-1 flex flex-col items-center sm:items-start mb-10 sm:mb-0">
               <img className="" src={logo} alt="" />
               <div className="mt-10 flex justify-between sm:justify-start">
