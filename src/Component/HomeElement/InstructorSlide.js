@@ -16,8 +16,8 @@ export default function InstructorSlide() {
     <>
       <div className="container mx-auto student_review">
         <Swiper
-          slidesPerView={1}
-          spaceBetween={50}
+          slidesPerView={4}
+          spaceBetween={30}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -27,17 +27,29 @@ export default function InstructorSlide() {
           }}
           loop={true}
           breakpoints={{
+            280: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            375: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
             640: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            768: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            768: {
-              slidesPerView: 4,
+            820: {
+              slidesPerView: 2,
               spaceBetween: 40,
             },
             1024: {
               slidesPerView: 4,
-              spaceBetween: 10,
+              spaceBetween: 20,
             },
           }}
           modules={[Pagination, Autoplay]}
@@ -47,7 +59,7 @@ export default function InstructorSlide() {
             <Link to="/instructor-course">
               <div className="">
                 <div className="ins_card">
-                  <img className=" w-80 h-80 mb-8" src={ins1} alt="" />
+                  <img className=" w-full h-80 mb-8" src={ins1} alt="" />
                   <div className="social_item">
                     <div className=" w-10 h-10 bg-khaki flex justify-center items-center">
                       <Icon
@@ -75,7 +87,7 @@ export default function InstructorSlide() {
           <SwiperSlide>
             <div className="">
               <div className="ins_card">
-                <img className=" w-80 h-80 mb-8" src={ins2} alt="" />
+                <img className=" w-full h-80 mb-8" src={ins2} alt="" />
 
                 <div className="social_item">
                   <div className=" w-10 h-10 bg-khaki flex justify-center items-center">
@@ -103,7 +115,7 @@ export default function InstructorSlide() {
           <SwiperSlide>
             <div className="">
               <div className="ins_card">
-                <img className=" w-80 h-80 mb-8" src={ins3} alt="" />
+                <img className=" w-full h-80 mb-8" src={ins3} alt="" />
 
                 <div className="social_item">
                   <div className=" w-10 h-10 bg-khaki flex justify-center items-center">
@@ -131,7 +143,7 @@ export default function InstructorSlide() {
           <SwiperSlide>
             <div className="">
               <div className="ins_card">
-                <img className=" w-80 h-80 mb-8" src={ins4} alt="" />
+                <img className=" w-full h-80 mb-8" src={ins4} alt="" />
 
                 <div className="social_item">
                   <div className=" w-10 h-10 bg-khaki flex justify-center items-center">

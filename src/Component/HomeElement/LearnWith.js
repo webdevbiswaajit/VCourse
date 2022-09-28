@@ -10,7 +10,7 @@ function LearnWith() {
           <h2 className="text-center text-2xl sm:text-5xl mt-7 font-medium text-black">
             Why You'll Learn with Us
           </h2>
-          <div className="grid sm:grid-cols-3 mt-7 sm:mt-16 mb-28 gap-5 px-6 sm:px-0">
+          <div className="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 mt-7 sm:mt-16 mb-28 gap-5 px-6 sm:px-0">
             <div className=" bg-white p-10 flex flex-col items-center ">
               <Icon
                 className=" text-khaki text-5xl  mb-4 "
@@ -62,8 +62,8 @@ function LearnWith() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col-reverse sm:flex-row gap-5 px-4 sm:px-0">
-            <div className="sm:w-1/2">
+          <div className=" grid lg:grid-cols-2 gap-4 px-4 lg:px-0">
+            <div className="">
               <h2 className="text-2xl sm:text-5xl text-black font-slab font-medium text-center sm:text-left">
                 Vcourse Creative <br /> Learning Steps
               </h2>
@@ -119,7 +119,7 @@ function LearnWith() {
                   </p>
                 </div>
               </div>
-              <div className=" mt-10 flex">
+              <div className=" mt-10 flex justify-center lg:justify-start">
                 <button className=" bg-khaki px-5 py-4 flex items-center rounded-md">
                   <Icon
                     className=" mr-2.5 text-black text-xl"
@@ -131,7 +131,7 @@ function LearnWith() {
                 </button>
               </div>
             </div>
-            <div className="sm:w-1/2">
+            <div className="">
               <img className=" w-full" src={learn} alt="Leanr Banner" />
             </div>
           </div>
