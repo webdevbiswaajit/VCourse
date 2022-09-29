@@ -163,13 +163,61 @@ body {
   left: 0px;
 }
 
+
+/* =================MenuBar================ */
+
+.menu_bar {
+  background: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.total_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+
+
+}
+
+.logo_area {
+  width: 25%;
+}
+
+
+
+.main_menu {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.nav_icon {
+  display: flex;
+  align-items: center;
+}
+
+
+.instructor {
+  background: transparent !important;
+}
+
+/* =================MenuBar================ */
 /* Small device */
 @media (min-width: 640px) {
   .homehero {
     background-color: red;
     background-image: url('Img/HomeBanner.jpg') !important;
   }
-
 }
 
 @media (max-width: 640px) {
@@ -182,6 +230,26 @@ body {
   .react-tabs__tab {
     margin-right: 0;
   }
+
+  .menu_item {
+    display: block;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    top: 37px;
+    width: 70%;
+    height: 100vh;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .menu_item li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+
 
 
 }
