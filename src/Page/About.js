@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <Menu />
-      <div className=" sm:py-24 py-10 lg:mt-24">
+      <div className=" sm:py-24 py-10 lg:mt-24 mt-28 px-4">
         <div className="container mx-auto">
           <h2 className=" text-black  sm:text-2xl text-center font-bold font-slab  sm:mb-4">
             A Great Place to Grow

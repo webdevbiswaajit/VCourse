@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Registration() {
   return (
     <>
-      <div className=" py-24 lg:mt-24">
+      <div className=" py-24 lg:mt-24 mt-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-4">
             <div className=""></div>
