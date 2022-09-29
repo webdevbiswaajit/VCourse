@@ -6,7 +6,7 @@ function BecomeInstractor() {
   return (
     <>
       <Menu />
-      <div className=" py-24">
+      <div className=" py-24 lg:mt-24">
         <div className="container mx-auto">
           <div className="grid grid-cols-4">
             <div className=""></div>

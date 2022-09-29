@@ -4,8 +4,8 @@ import { Icon } from "@iconify/react";
 function Hero() {
   return (
     <>
-      <div className="homehero pt-6  bg-center bg-cover bg-no-repeat sm:h-700 pb-[300px] sm:pb-0 ">
-        <div className=" container mx-auto h-full flex flex-col justify-center">
+      <div className="homehero pt-6  bg-center bg-cover bg-no-repeat sm:h-700 pb-[300px] sm:pb-0 mt-[70px]">
+        <div className=" container mx-auto h-full flex flex-col justify-center ">
           <p className="font-medium text-2xl sm:text-5xl leading-tight text-center sm:text-left">
             Develop Skills
             <br /> With Expert on Live!

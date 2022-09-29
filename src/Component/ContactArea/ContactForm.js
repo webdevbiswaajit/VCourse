@@ -4,7 +4,7 @@ import cBanner from "../../Img/ContactImg.jpg";
 function ContactForm() {
   return (
     <>
-      <div className=" bg-ash sm:py-24 py-12">
+      <div className=" bg-ash sm:py-24 py-12 lg:mt-20">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="">

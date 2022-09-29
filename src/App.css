@@ -141,6 +141,7 @@ body {
 /* ===============Sign-with=============== */
 .sing_width {
   position: relative;
+
 }
 
 .sing_width::after {
@@ -169,7 +170,9 @@ body {
 .menu_bar {
   background: #fff;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .total_menu {
@@ -221,6 +224,7 @@ body {
   .homehero {
     background-color: red;
     background-image: url('Img/HomeBanner.jpg') !important;
+    margin-top: 60px !important;
   }
 }
 
@@ -249,7 +253,7 @@ body {
     position: absolute;
     background: #fff;
     left: 0;
-    top: 70px;
+    top: 69px;
     width: 70%;
     height: 100vh;
     padding-right: 20px;
@@ -269,10 +273,6 @@ body {
   .menu_item {
     display: none;
   }
-
-
-
-
 }
 
 @media (max-width: 992px) {

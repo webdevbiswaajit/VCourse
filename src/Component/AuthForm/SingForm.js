@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function SingForm() {
   return (
     <>
-      <div className="py-10 sm:py-24  md:py-14">
+      <div className="py-10 sm:py-24  md:py-14 lg:mt-24">
         <div className="container mx-auto">
           <div className="grid grid-cols-4">
             <div className=""></div>
