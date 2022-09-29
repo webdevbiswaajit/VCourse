@@ -173,6 +173,8 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  overflow: hidden;
+  z-index: 1111111111;
 }
 
 .total_menu {
