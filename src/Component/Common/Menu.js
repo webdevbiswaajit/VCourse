@@ -3,21 +3,33 @@ import "../../App.css";
 import logo from "../../Img/VCourse.png";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import { useState } from "react";
 
 function Menu() {
+  const [mobile, setMobile] = useState(false);
   return (
     <>
       <div className="menu_bar">
         <div className="container mx-auto main_menu ">
           <div className="logo_area ml-2 py-3 flex items-center justify-between">
-            <div className=" text-3xl text-black font-bold">
-              <Icon icon="gg:menu-right-alt" />
-            </div>
+            <button
+              className=" text-3xl text-black font-bold mobile-menu_icon"
+              onClick={() => setMobile(!mobile)}
+            >
+              {mobile ? (
+                <Icon icon="fluent-emoji-high-contrast:cross-mark" />
+              ) : (
+                <Icon icon="gg:menu-right-alt" />
+              )}
+            </button>
             <img className="" src={logo} alt="....." />
           </div>
           <div className="total_menu">
             <div className="">
-              <ul className="menu_item">
+              <ul
+                className={mobile ? "nav-link-mobile" : "menu_item"}
+                onClick={() => setMobile(false)}
+              >
                 <li className="  text-sm text-black font-slab px-7  hover:bg-khaki">
                   <Link to="/home">Home</Link>
                 </li>

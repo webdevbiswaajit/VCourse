@@ -211,6 +211,10 @@ body {
   background: transparent !important;
 }
 
+.mobile-menu_icon {
+  display: none;
+}
+
 /* =================MenuBar================ */
 /* Small device */
 @media (min-width: 640px) {
@@ -240,7 +244,7 @@ body {
     margin-left: 20px;
   }
 
-  .menu_item {
+  .nav-link-mobile {
     display: block;
     position: absolute;
     background: #fff;
@@ -253,9 +257,17 @@ body {
 
   }
 
-  .menu_item li {
+  .nav-link-mobile li {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+
+  .mobile-menu_icon {
+    display: block;
+  }
+
+  .menu_item {
+    display: none;
   }
 
 
